@@ -1,0 +1,3 @@
+"use client";
+import Nav from "../../components/Nav"; import Footer from "../../components/Footer";
+export default function Contact(){return <><Nav/><main className="section"><div className="container"><h1 className="h2">Contact</h1><div className="panel" style={{maxWidth:720,marginTop:28}}><div className="field"><label>Name</label><input/></div><div className="field"><label>Email</label><input type="email"/></div><div className="field"><label>Message</label><textarea rows="7"/></div><button className="primary" onClick={()=>alert("Thanks! Connect this form to your email provider before production.")}>Send Message</button></div></div></main><Footer/></>}

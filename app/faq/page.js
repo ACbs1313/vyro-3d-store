@@ -1,0 +1,3 @@
+import Nav from "../../components/Nav"; import Footer from "../../components/Footer";
+const qs=["How long does printing take?","Can I choose a different color?","Can I customize a product?","Where do you ship?","How can I track my order?","What happens if my order arrives damaged?"];
+export default function FAQ(){return <><Nav/><main className="section"><div className="container"><h1 className="h2">FAQ</h1><div style={{marginTop:28}}>{qs.map(q=><details className="feature" key={q} style={{marginBottom:10}}><summary style={{fontWeight:700,cursor:"pointer"}}>{q}</summary><p className="muted">Production and shipping details depend on the product. Contact us if you need help with a specific order.</p></details>)}</div></div></main><Footer/></>}

@@ -1,0 +1,1 @@
+export default function Footer(){return <footer className="footer"><div className="container footer-inner"><div>© 2026 VYRO. Made to order.</div><div>Instagram · TikTok · YouTube</div></div></footer>}
